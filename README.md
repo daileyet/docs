@@ -6,4 +6,5 @@ Easyweb is a java web MVC framework.It is free under Apache 2 license. Easyweb i
 * Support multi-type response of java method as web View
 * Support annotation configuration
 * Add security controller flexibly and quickly
+* Enable/disable simple web monitor to view Controllers and Filters
 
