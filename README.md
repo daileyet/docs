@@ -1,3 +1,3 @@
-# My Awesome Book
+# Easyweb
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This is a java web MVC framework, it is simple, pure and easy to understand.
