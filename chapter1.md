@@ -43,3 +43,25 @@ public class EasyWebConfigure{}
   </context-param>
   ...
 ```
+
+#### Create Controller with POJO class
+
+```
+@Controller
+public class HelloController {
+	@Mapping("/index")
+	public String index() {
+		return "hello.jsp";
+	}
+}    
+```
+
+### Deploy app to web container and run
+After deploy your web application to Servlet container(Tomcat/Resin)
+
+Access by URL: 
+http://localhost:8080/easywebexample/index.htm 
+or 
+http://localhost:8080/easywebexample/index.do
+
+*easywebexample* is app web root context.
