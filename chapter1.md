@@ -11,6 +11,9 @@
 ```
 #### Configure project by annotationed POJO class
 ```
+/*
+ * File name:com.openthinks.easywebexample.EasyWebConfigure
+*/
 @EasyConfigure
 @ScanPackages({ "com.openthinks.easywebexample" })
 @RequestSuffixs(".do,.htm")
