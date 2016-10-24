@@ -8,9 +8,9 @@ Form the class diagrams, we can see two parts of framework:
   * **WebProcesser** Processor of objects such as WebContainer,WebController,WebFilter,WebMethod
   * **WebContainer** store mappings which from request path to WebMethod instance
 2. handler for HTTP request
-  * **FilterHandler** Base handler, mostly used in EasyWebFilter
-  * **WebHandler** Handler used in EasyWebDispatcher
-  * **EasyWebDispatcher**
+  * **FilterHandler** Base handler, mostly used in EasyWebFilter, hold WebMethod from WebFilter
+  * **WebHandler** Handler used in EasyWebDispatcher, hold WebMethod from WebController
+  * **EasyWebDispatcher** Main servlet for framework to dispatch http request
   * **EasyWebFilter**
 
 
