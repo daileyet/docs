@@ -14,5 +14,6 @@ Form the class diagrams, we can see two parts of framework:
   * **EasyWebFilter** Main filter for framework to main servlet EasyWebDispatcher
 
 
+![](EasyWeb Core Classes.png)
 
-
+![](EasyWeb Handler Classes.png)
