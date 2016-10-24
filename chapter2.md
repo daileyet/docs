@@ -5,7 +5,7 @@ Form the class diagrams, we can see two parts of framework:
 1. core basic objects and building
   * **WebContextLoadListener** Servlet context listener, initialize framework from here
   * **WebConfigure** Configuration of framework
-  * **WebProcesser** Processor of objects such as WebContainer,WebController,WebFilter,WebMethod
+  * **WebProcesser** Processor of objects such as WebContainer, WebController, WebFilter, WebMethod
   * **WebContainer** store mappings which from request path to WebMethod instance
 2. handler for HTTP request
   * **FilterHandler** Base handler, mostly used in EasyWebFilter, hold WebMethod from WebFilter
