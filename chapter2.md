@@ -11,7 +11,7 @@ Form the class diagrams, we can see two parts of framework:
   * **FilterHandler** Base handler, mostly used in EasyWebFilter, hold WebMethod from WebFilter
   * **WebHandler** Handler used in EasyWebDispatcher, hold WebMethod from WebController
   * **EasyWebDispatcher** Main servlet for framework to dispatch http request
-  * **EasyWebFilter**
+  * **EasyWebFilter** Main filter for framework to main servlet EasyWebDispatcher
 
 
 
