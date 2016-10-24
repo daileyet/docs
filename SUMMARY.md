@@ -2,4 +2,5 @@
 
 * [Introduction](README.md)
 * [Quick Start](chapter1.md)
+* Class Diagram
 
