@@ -7,12 +7,35 @@ Relative to the way of XML file configuration, the annotation configuration will
 > com.openthinks.easyweb.context.parser.WebConfigureAnnoationParser
 
 As below is the configuration annotations list:
-1. @EasyConfigure 
+1. @EasyConfigure Tag a class, make it as configuration class
 2. @ScanPackages
 3. @RequestSuffixs
 4. @BootstrapClass
 5. @ScanWay
+  * ScanWayEnum.FILE_PATH : default value; apply for app deployed by folder
+  * ScanWayEnum.ADVANCE : used third-party lib [Reflections](https://github.com/ronmamo/reflections); apply for app deployed by war
 
+
+sample code:
+```
+@EasyConfigure
+@ScanPackages({ "com.openthinks.easywebexample" })
+@ScanWay(ScanWayEnum.FILE_PATH)
+@RequestSuffixs(".do,.htm")
+@BootstrapClass("com.openthinks.easywebexample.MyBootstrap")
+public class EasyWebConfigure {
+}
+```
+If the configuration class implements type: **com.openthinks.easyweb.context.Bootstrap**
+and use default package sacn way: **ScanWayEnum.FILE_PATH**
+
+```
+@EasyConfigure
+@ScanPackages({ "com.openthinks.easywebexample" })
+@RequestSuffixs(".do,.htm")
+public class EasyWebConfigure implements Bootstrap{
+}
+```
 
 
 ### Tag Annotations
