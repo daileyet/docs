@@ -1,5 +1,2 @@
 # Glossary
 
-## EasyConfigure
-
-ddd
