@@ -16,7 +16,8 @@ As below is the configuration annotations list:
 
 
 ### Tag Annotations
-
+Exclude configuration anntations, the rest are used to tag or mark a component such as Java POJO class, class field, class method
+As below is the tag annotations list:
 1. @Controller
 2. @Filter
 3. @Mapping
