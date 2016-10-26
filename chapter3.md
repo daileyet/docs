@@ -60,7 +60,7 @@ As below is the tag annotations list:
 
 Sample code:
 default controller name and value(path); interactive HTTP URL:
-http://localhost/easywebexample/index.do
+http://localhost:8080/easywebexample/index.do
 ```java
 @Controller
 public class HelloController {
