@@ -65,11 +65,6 @@ http://localhost:8080/easywebexample/index.do
 @Controller
 public class HelloController {
 	/**
-	 * auto initialize {@link HelloService}
-	 */
-	@AutoComponent
-	HelloService helloService;
-	/**
 	 * Usage 1: with String return value
 	 * forward to hello.jsp
 	 * @return jsp view page path
@@ -80,11 +75,11 @@ public class HelloController {
 	}
 }
 ```
-
+special controller value(path); interactive HTTP URL:
+http://localhost:8080/easywebexample/welcome/index3.do
 ```java
 @Controller("/welcome")
 public class WelcomeController {
-
 	@Mapping("/index3")
 	@ResponseReturn(contentType = ResponseReturnType.TEXT_XML)
 	public String index3() {
@@ -92,7 +87,8 @@ public class WelcomeController {
 	}
 }
 ```
-
+special controller name and value(path); interactive HTTP URL:
+http://localhost:8080/easywebexample/welcome/login/action3.do
 ```java
 @Controller(name="welcomeController",value="/welcome")
 public class WelcomeController {
@@ -114,3 +110,8 @@ public class WelcomeController {
 }
 
 ```
+
+
+---
+
+*NOTE*: All sample in this documentation will based on project [easywebexample](https://github.com/daileyet/easywebexample), which context root is: /easywebexample; request suffixs: \*.do,\*.htm
