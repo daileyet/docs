@@ -2,7 +2,7 @@
 
 #### Add dependency to pom.xml
 
-```
+```xml
 <dependency>
   <groupId>com.openthinks</groupId>
   <artifactId>easyweb</artifactId>
@@ -10,7 +10,7 @@
 </dependency>
 ```
 #### Configure project by annotationed POJO class
-```
+```java
 /*
  * File name:com.openthinks.easywebexample.EasyWebConfigure
 */
@@ -22,7 +22,7 @@ public class EasyWebConfigure{}
 
 #### Enable easyweb in web.xml
 
-```
+```xml
   ...
   <servlet>
     <servlet-name>easyweb</servlet-name>
@@ -49,7 +49,7 @@ public class EasyWebConfigure{}
 
 #### Create Controller with POJO class
 
-```
+```java
 @Controller
 public class HelloController {
 	@Mapping("/index")
