@@ -45,4 +45,25 @@ This core servlet will take charge of all the HTTP requests those mapping to thi
 **NOTE**
 Here the url-patterns for this core servlet mapping are suffixation format; this style is normal and recommend, with this style, you should configure your project on configureClass
 
+```java
+@EasyConfigure
+//...
+@RequestSuffixs(".do,.htm")
+//...
+public class EasyWebConfigure {
+}
+```
+
+### Point your project configure class
+
+```xml
+ <web-app>
+   ...
+  <context-param>
+    <param-name>configureClassName</param-name>
+    <param-value>com.openthinks.easywebexample.EasyWebConfigure</param-value>
+  </context-param>
+   ...
+ </web-app>
+```
 
