@@ -67,3 +67,23 @@ public class EasyWebConfigure {
  </web-app>
 ```
 
+After point this configure class, EasyWeb framework will know how to initialized itself.
+
+### Add build-in filter and mapping
+
+ ```xml
+ <web-app>
+   ...
+  <filter>
+  	<filter-name>easyweb_filter</filter-name>
+  	<filter-class>com.openthinks.easyweb.EasyWebFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>easyweb_filter</filter-name>
+  	<servlet-name>easyweb</servlet-name>
+  </filter-mapping> 
+   ...
+ </web-app>
+ ```
+
+This filter **EasyWebFilter** is option, if your project need add filters to do authentication, encoding and etc, you can add it in **web.xml**, then you can use POJO class as Filter just like Controller
