@@ -13,3 +13,7 @@
    ...
  </web-app>
  ```
+ This listener class will loaded when servlet container(Tomcat/Jetty) startup, and initialize EasyWeb framework ： 
+ 1. initialize and instance WebContext
+ 2. call Bootstarp#initial() if configured in WebContext
+ 3. initialize WebContainer and build request mapping for WebControllers and WebFilters
