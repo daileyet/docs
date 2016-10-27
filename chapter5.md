@@ -7,7 +7,6 @@
  ```xml
  <web-app>
  ...
- 
    <listener>
     <listener-class>com.openthinks.easyweb.context.WebContextLoadListener</listener-class>
    </listener>
