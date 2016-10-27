@@ -102,4 +102,4 @@ This filter **EasyWebFilter** is option, if your project need add filters to do 
  </web-app>
  ```
  
-This part will be helpful when you in development or your web project class directory is not placed at normal path **/WEB-INF/classes/**.
+This part is option too, it will be helpful when you in development or your web project class directory is not placed at normal path **/WEB-INF/classes/**.
