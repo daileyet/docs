@@ -87,3 +87,19 @@ After point this configure class, EasyWeb framework will know how to initialized
  ```
 
 This filter **EasyWebFilter** is option, if your project need add filters to do authentication, encoding and etc, you can add it in **web.xml**, then you can use POJO class as Filter just like Controller
+
+### Set project class directory
+
+ ```xml
+ <web-app>
+   ...
+  <!-- remove this in production -->
+  <context-param>
+    <param-name>easywebClassDir</param-name>
+    <param-value>R:\MyGit\easywebexample\target\classes</param-value>
+  </context-param>
+   ...
+ </web-app>
+ ```
+ 
+This part will be helpful when you in development or your web project class directory is not placed at normal path **/WEB-INF/classes/**.
