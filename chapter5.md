@@ -43,5 +43,6 @@ This listener class will loaded when servlet container(Tomcat/Jetty) startup, an
 This core servlet will take charge of all the HTTP requests those mapping to this servlet, so this servlet is the entry for the framework.
 
 **NOTE**
-Here the url-patterns for this core servlet mapping are suffixation format; this style is normal and recommend, with this style, you should configure your project on configureClass 
+Here the url-patterns for this core servlet mapping are suffixation format; this style is normal and recommend, with this style, you should configure your project on configureClass
+
 
