@@ -1,6 +1,5 @@
 # Table of contents
 
-* [README](README.md)
 * [Easyweb](easyweb/README.md)
   * [Quick Start](easyweb/chapter1.md)
   * [Class Diagram](easyweb/chapter2.md)
