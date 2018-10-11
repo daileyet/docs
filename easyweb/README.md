@@ -13,12 +13,3 @@ Easyweb is a java web MVC framework.It is free under Apache 2 license. Easyweb i
 
 Code and examples are in [github repository](https://github.com/daileyet/openlibs.easywebframework)
 
-## Table of contents
-
-* [Introduction](./)
-* [Quick Start](chapter1.md)
-* [Class Diagram](chapter2.md)
-* [Annotations](chapter3.md)
-* [App:easywebexample](chapter4.md)
-* [easywebexample \(1\)](chapter5.md)
-
