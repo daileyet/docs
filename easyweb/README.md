@@ -1,4 +1,4 @@
-# README
+# Easyweb: MVC framework
 
 Easyweb is a java web MVC framework.It is free under Apache 2 license. Easyweb is simple, pure and easy to understand. You can use this framework to do:
 
