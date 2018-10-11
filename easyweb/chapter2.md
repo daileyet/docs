@@ -1,4 +1,4 @@
-# chapter2
+# Class Diagram
 
 The chapter and sections can be helpful for us to understand EasyWeb framework. Form the class diagrams, we can see two parts of framework: 1. core basic objects and building
 

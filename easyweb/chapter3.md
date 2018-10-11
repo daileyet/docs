@@ -1,4 +1,4 @@
-# chapter3
+# Annotations
 
 EasWeb used annotation to tag and configure the framework. This is simplest and quickest. Of course, normal XML file configuration also can be used to configure the framework, but not implement now, only provider interface:
 

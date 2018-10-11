@@ -3,9 +3,9 @@
 * [README](README.md)
 * [Easyweb](easyweb/README.md)
   * [Quick Start](easyweb/chapter1.md)
-  * [chapter2](easyweb/chapter2.md)
-  * [chapter3](easyweb/chapter3.md)
-  * [chapter4](easyweb/chapter4.md)
-  * [chapter5](easyweb/chapter5.md)
+  * [Class Diagram](easyweb/chapter2.md)
+  * [Annotations](easyweb/chapter3.md)
+  * [Application easywebexample](easyweb/chapter4.md)
+  * [easywebexample \(1\)](easyweb/chapter5.md)
   * [GLOSSARY](easyweb/glossary.md)
 
