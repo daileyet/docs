@@ -1,4 +1,6 @@
-# Easyweb: MVC framework
+# Easyweb
+
+## Easyweb: MVC framework
 
 Easyweb is a java web MVC framework.It is free under Apache 2 license. Easyweb is simple, pure and easy to understand. You can use this framework to do:
 
@@ -11,7 +13,7 @@ Easyweb is a java web MVC framework.It is free under Apache 2 license. Easyweb i
 
 Code and examples are in [github repository](https://github.com/daileyet/openlibs.easywebframework)
 
-# Table of contents
+## Table of contents
 
 * [Introduction](./)
 * [Quick Start](chapter1.md)
@@ -19,3 +21,4 @@ Code and examples are in [github repository](https://github.com/daileyet/openlib
 * [Annotations](chapter3.md)
 * [App:easywebexample](chapter4.md)
 * [easywebexample \(1\)](chapter5.md)
+
