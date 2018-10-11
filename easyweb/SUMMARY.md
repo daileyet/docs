@@ -1,4 +1,4 @@
-# SUMMARY
+# Table of contents
 
 * [Introduction](./)
 * [Quick Start](chapter1.md)
@@ -6,4 +6,3 @@
 * [Annotations](chapter3.md)
 * [App:easywebexample](chapter4.md)
 * [easywebexample \(1\)](chapter5.md)
-
