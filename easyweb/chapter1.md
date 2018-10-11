@@ -69,4 +69,3 @@ http://localhost:8080/easywebexample/index.do
 to get page which render by **hello.jsp**
 
 *easywebexample* is app web root context.
- 
