@@ -1,15 +1,17 @@
 # Quick Start
 
-#### Add dependency to pom.xml
+### Add dependency to pom.xml
 
-```xml
+```markup
 <dependency>
   <groupId>com.openthinks</groupId>
   <artifactId>easyweb</artifactId>
   <version>1.2</version>
 </dependency>
 ```
-#### Configure project by annotationed POJO class
+
+### Configure project by annotationed POJO class
+
 ```java
 /*
  * File name:com.openthinks.easywebexample.EasyWebConfigure
@@ -20,9 +22,9 @@
 public class EasyWebConfigure{}
 ```
 
-#### Enable easyweb in web.xml
+### Enable easyweb in web.xml
 
-```xml
+```markup
   ...
   <servlet>
     <servlet-name>easyweb</servlet-name>
@@ -47,25 +49,23 @@ public class EasyWebConfigure{}
   ...
 ```
 
-#### Create Controller with POJO class
+### Create Controller with POJO class
 
 ```java
 @Controller
 public class HelloController {
-	@Mapping("/index")
-	public String index() {
-		return "hello.jsp";
-	}
-}    
+    @Mapping("/index")
+    public String index() {
+        return "hello.jsp";
+    }
+}
 ```
 
-### Deploy app to web container and run
-After deploy your web application to Servlet container(Tomcat/Resin)
+## Deploy app to web container and run
 
-Access by URL: 
-http://localhost:8080/easywebexample/index.htm 
-or 
-http://localhost:8080/easywebexample/index.do
-to get page which render by **hello.jsp**
+After deploy your web application to Servlet container\(Tomcat/Resin\)
 
-*easywebexample* is app web root context.
+Access by URL: [http://localhost:8080/easywebexample/index.htm](http://localhost:8080/easywebexample/index.htm) or [http://localhost:8080/easywebexample/index.do](http://localhost:8080/easywebexample/index.do) to get page which render by **hello.jsp**
+
+_easywebexample_ is app web root context.
+

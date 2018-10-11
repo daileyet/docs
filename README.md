@@ -1,5 +1,6 @@
-## docs
-All documetations
-### Easyweb: MVC framework
+# README
 
+All documetations
+
+## Easyweb: MVC framework
 
