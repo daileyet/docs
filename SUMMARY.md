@@ -1,7 +1,7 @@
 # Table of contents
 
 * [README](README.md)
-* [README](easyweb/README.md)
+* [Easyweb](easyweb/README.md)
   * [SUMMARY](easyweb/summary.md)
   * [Quick Start](easyweb/chapter1.md)
   * [GLOSSARY](easyweb/glossary.md)
