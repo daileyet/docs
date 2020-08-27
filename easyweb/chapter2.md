@@ -19,3 +19,4 @@ Form the class diagrams, we can see two parts of framework:
 
 
 ![](EasyWeb Handler Classes.png)
+ 
